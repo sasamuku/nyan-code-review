@@ -4,7 +4,7 @@
 import { Octokit } from 'octokit';
 import { createAppAuth } from '@octokit/auth-app';
 import { GITHUB_CONFIG } from './config';
-import type { PullRequest, PRFile, Repository, User } from '../types';
+import type { PullRequest, PRFile } from '../types';
 import crypto from 'node:crypto';
 
 // Create Octokit instance with GitHub App authentication
@@ -21,10 +21,13 @@ export const createOctokitApp = () => {
 // Create Octokit instance with installation token
 export const createOctokitWithInstallation = async (installationId: number) => {
   const octokit = createOctokitApp();
-  const { token } = await octokit.auth({
+  const response = await octokit.auth({
     type: 'installation',
     installationId,
   });
+
+  // Type assertion to handle the response
+  const { token } = response as { token: string };
 
   return new Octokit({ auth: token });
 };

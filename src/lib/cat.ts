@@ -1,7 +1,8 @@
 /**
  * Cat message generation logic for NyanCode Review
  */
-import type { PRAnalysisResult, ChangeSize, ReviewPriority } from '../types';
+import { ChangeSize, ReviewPriority } from '../types';
+import type { PRAnalysisResult } from '../types';
 import { CAT_EMOJI_SCALE } from './config';
 
 /**
@@ -9,7 +10,6 @@ import { CAT_EMOJI_SCALE } from './config';
  */
 export const generatePRReviewComment = (analysis: PRAnalysisResult): string => {
   const {
-    prNumber,
     additions,
     deletions,
     changedFiles,

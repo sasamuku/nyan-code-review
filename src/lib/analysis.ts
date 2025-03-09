@@ -2,7 +2,8 @@
  * PR Analysis logic for NyanCode Review
  */
 import path from 'node:path';
-import type { PRFile, PRAnalysisResult, FileTypeInfo, ChangeSize, ReviewPriority } from '../types';
+import { ChangeSize, ReviewPriority } from '../types';
+import type { PRFile, PRAnalysisResult, FileTypeInfo } from '../types';
 import {
   CHANGE_SIZE_THRESHOLDS,
   COMPLEXITY_WEIGHTS,
