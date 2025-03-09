@@ -105,7 +105,7 @@ export default function Home() {
             Install GitHub App
           </Link>
           <Link
-            href="https://github.com/your-username/nyancode-review"
+            href="https://github.com/sasamuku/nyan-code-review"
             className="bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 font-bold py-3 px-6 rounded-lg"
           >
             View on GitHub
@@ -115,7 +115,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-3 lg:text-left mt-16">
         <a
-          href="https://github.com/your-username/nyancode-review/issues"
+          href="https://github.com/sasamuku/nyan-code-review/issues"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -132,7 +132,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://github.com/your-username/nyancode-review/blob/main/README.md"
+          href="https://github.com/sasamuku/nyan-code-review/blob/main/README.md"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -149,7 +149,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://github.com/your-username/nyancode-review/blob/main/CONTRIBUTING.md"
+          href="https://github.com/sasamuku/nyan-code-review/blob/main/CONTRIBUTING.md"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"

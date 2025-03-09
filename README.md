@@ -29,7 +29,7 @@ Your feline friend for code reviews! NyanCode Review is a GitHub App that analyz
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nyan-code-review.git
+   git clone https://github.com/sasamuku/nyan-code-review.git
    cd nyan-code-review
    ```
 
